@@ -43,7 +43,6 @@
             this.buttonLSThanhToan = new System.Windows.Forms.Button();
             this.buttonCapNhat = new System.Windows.Forms.Button();
             this.buttonXuatNS = new System.Windows.Forms.Button();
-            this.buttonNhapNS = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -71,7 +70,6 @@
             this.panel1.Controls.Add(this.buttonLSThanhToan);
             this.panel1.Controls.Add(this.buttonCapNhat);
             this.panel1.Controls.Add(this.buttonXuatNS);
-            this.panel1.Controls.Add(this.buttonNhapNS);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
@@ -199,6 +197,7 @@
             this.buttonQLKhachHang.TabIndex = 6;
             this.buttonQLKhachHang.Text = "Quản lý khách hàng";
             this.buttonQLKhachHang.UseVisualStyleBackColor = false;
+            this.buttonQLKhachHang.Click += new System.EventHandler(this.buttonQLKhachHang_Click);
             // 
             // buttonLSThanhToan
             // 
@@ -212,7 +211,6 @@
             this.buttonLSThanhToan.TabIndex = 5;
             this.buttonLSThanhToan.Text = "Lịch sử Thanh toán";
             this.buttonLSThanhToan.UseVisualStyleBackColor = false;
-            this.buttonLSThanhToan.Click += new System.EventHandler(this.buttonLSThanhToan_Click);
             // 
             // buttonCapNhat
             // 
@@ -226,6 +224,7 @@
             this.buttonCapNhat.TabIndex = 4;
             this.buttonCapNhat.Text = "Cập nhật - Sao lưu Dữ liệu";
             this.buttonCapNhat.UseVisualStyleBackColor = false;
+            this.buttonCapNhat.Click += new System.EventHandler(this.buttonCapNhat_Click);
             // 
             // buttonXuatNS
             // 
@@ -239,19 +238,7 @@
             this.buttonXuatNS.TabIndex = 2;
             this.buttonXuatNS.Text = "Bán Nông Sản";
             this.buttonXuatNS.UseVisualStyleBackColor = false;
-            // 
-            // buttonNhapNS
-            // 
-            this.buttonNhapNS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.buttonNhapNS.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNhapNS.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonNhapNS.Location = new System.Drawing.Point(120, 121);
-            this.buttonNhapNS.Margin = new System.Windows.Forms.Padding(4);
-            this.buttonNhapNS.Name = "buttonNhapNS";
-            this.buttonNhapNS.Size = new System.Drawing.Size(213, 51);
-            this.buttonNhapNS.TabIndex = 1;
-            this.buttonNhapNS.Text = "Nhập Nông Sản";
-            this.buttonNhapNS.UseVisualStyleBackColor = false;
+            this.buttonXuatNS.Click += new System.EventHandler(this.buttonXuatNS_Click);
             // 
             // Form2
             // 
@@ -284,7 +271,6 @@
         private System.Windows.Forms.Button buttonLSThanhToan;
         private System.Windows.Forms.Button buttonCapNhat;
         private System.Windows.Forms.Button buttonXuatNS;
-        private System.Windows.Forms.Button buttonNhapNS;
         private System.Windows.Forms.Button buttonQLNongSan;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;

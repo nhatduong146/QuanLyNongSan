@@ -100,6 +100,7 @@
             this.buttonDangNhap.TabIndex = 4;
             this.buttonDangNhap.Text = "Đăng nhập";
             this.buttonDangNhap.UseVisualStyleBackColor = false;
+            this.buttonDangNhap.Click += new System.EventHandler(this.buttonDangNhap_Click);
             // 
             // textBoxMatKhau
             // 
@@ -124,7 +125,7 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(407, 252);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 26);
+            this.label2.Size = new System.Drawing.Size(119, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mật khẩu:";
             // 
@@ -135,7 +136,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(407, 178);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 26);
+            this.label1.Size = new System.Drawing.Size(175, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên Đăng nhập:";
             this.label1.Click += new System.EventHandler(this.label1_Click);

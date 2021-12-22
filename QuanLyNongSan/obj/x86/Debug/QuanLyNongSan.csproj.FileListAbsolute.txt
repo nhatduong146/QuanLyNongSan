@@ -22,3 +22,17 @@ D:\THU HOA\Học kì 320 - Hè\Công nghệ XML\BaiTapNhom-XML\CML\test-2\QuanLy
 D:\THU HOA\Học kì 320 - Hè\Công nghệ XML\BaiTapNhom-XML\CML\test-2\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form5.resources
 D:\THU HOA\Học kì 320 - Hè\Công nghệ XML\BaiTapNhom-XML\CML\test-2\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.FormSaoLuuData.resources
 D:\THU HOA\Học kì 320 - Hè\Công nghệ XML\BaiTapNhom-XML\CML\test-2\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Properties.Resources.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\bin\Debug\QuanLyNongSan.exe
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\bin\Debug\QuanLyNongSan.pdb
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csprojAssemblyReference.cache
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form1.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form2.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form3.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form4.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form5.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.FormSaoLuuData.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Properties.Resources.resources
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.GenerateResource.cache
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.CoreCompileInputs.cache
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.exe
+D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.pdb

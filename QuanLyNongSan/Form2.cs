@@ -16,19 +16,28 @@ namespace QuanLyNongSan
             InitializeComponent();
         }
 
-        private void buttonLSThanhToan_Click(object sender, EventArgs e)
+        private void buttonXuatNS_Click(object sender, EventArgs e)
         {
-
+            Form4 form4 = new Form4();
+            form4.Show();
         }
 
         private void buttonQLNongSan_Click(object sender, EventArgs e)
         {
-
+            Form3 form3 = new Form3();
+            form3.Show();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void buttonQLKhachHang_Click(object sender, EventArgs e)
         {
+            Form5 form5 = new Form5();
+            form5.Show();
+        }
 
+        private void buttonCapNhat_Click(object sender, EventArgs e)
+        {
+            FormSaoLuuData form6 = new FormSaoLuuData();
+            form6.Show();
         }
     }
 }

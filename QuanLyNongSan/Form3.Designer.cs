@@ -136,6 +136,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(29, 362);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(838, 299);
             this.dataGridView1.TabIndex = 1;
@@ -260,11 +261,12 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.SkyBlue;
-            this.label4.Location = new System.Drawing.Point(438, 44);
+            this.label4.Location = new System.Drawing.Point(498, 46);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(122, 22);
+            this.label4.Size = new System.Drawing.Size(50, 22);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Nhà cung cấp:";
+            this.label4.Text = "Giá: ";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBoxSoLuong
             // 
