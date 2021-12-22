@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NhanVien>
+    <NhanVien>
+        <maNv>1</maNv>
+        <tenNV>Nguyen Van A</tenNV>
+        <tenDN>ddddd</tenDN>
+        <matKhau>1234</matKhau>
+    </NhanVien>
+    <NhanVien>
+        <maNv>2</maNv>
+        <tenNV>Nguyen Van B</tenNV>
+        <tenDN>ccccc</tenDN>
+        <matKhau>1234</matKhau>
+    </NhanVien>
+    <NhanVien>
+        <maNv>3</maNv>
+        <tenNV>Nguyen Van C</tenNV>
+        <tenDN>dddd</tenDN>
+        <matKhau>1234</matKhau>
+    </NhanVien>
+</NhanVien>

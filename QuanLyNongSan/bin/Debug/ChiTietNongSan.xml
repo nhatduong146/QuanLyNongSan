@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChiTietNongSan>
+    <ChiTietNongSan>
+        <maNS>1</maNS>
+        <tenNS>Rau muong</tenNS>
+        <soLuong>2</soLuong>
+        <chiTietNS>khong biet</chiTietNS>
+        <maDMNS>1</maDMNS>
+        <gia>10000</gia>
+    </ChiTietNongSan>
+    <ChiTietNongSan>
+        <maNS>2</maNS>
+        <tenNS>Ca Rot</tenNS>
+        <soLuong>2</soLuong>
+        <chiTietNS>khong biet</chiTietNS>
+        <maDMNS>2</maDMNS>
+        <gia>30000</gia>
+    </ChiTietNongSan>
+    <ChiTietNongSan>
+        <maNS>3</maNS>
+        <tenNS>Ca Chua</tenNS>
+        <soLuong>2</soLuong>
+        <chiTietNS>khong biet</chiTietNS>
+        <maDMNS>3</maDMNS>
+        <gia>50000</gia>
+    </ChiTietNongSan>
+</ChiTietNongSan>

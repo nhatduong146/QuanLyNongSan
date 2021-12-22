@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DanhMucNongSan>
+    <DanhMucNongSan>
+        <maDMNS>1</maDMNS>
+        <tenDMNS>Rau</tenDMNS>
+    </DanhMucNongSan>
+    <DanhMucNongSan>
+        <maDMNS>2</maDMNS>
+        <tenDMNS>Cu</tenDMNS>
+    </DanhMucNongSan>
+    <DanhMucNongSan>
+        <maDMNS>3</maDMNS>
+        <tenDMNS>Qua</tenDMNS>
+    </DanhMucNongSan>
+</DanhMucNongSan>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChiThietHoaDon>
+    <ChiThietHoaDon>
+        <maHD>1</maHD>
+        <maNS>1</maNS>
+        <soLuong>5</soLuong>
+        <gia>200000</gia>
+    </ChiThietHoaDon>
+    <ChiThietHoaDon>
+        <maHD>2</maHD>
+        <maNS>1</maNS>
+        <soLuong>15</soLuong>
+        <gia>2000000</gia>
+    </ChiThietHoaDon>
+    <ChiThietHoaDon>
+        <maHD>3</maHD>
+        <maNS>2</maNS>
+        <soLuong>1</soLuong>
+        <gia>100000</gia>
+    </ChiThietHoaDon>
+</ChiThietHoaDon>

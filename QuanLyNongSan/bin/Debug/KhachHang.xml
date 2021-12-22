@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KhachHang>
+    <KhachHang>
+        <maKH>1</maKH>
+        <tenKH>Le La</tenKH>
+        <tienDaMua>1000000</tienDaMua>
+    </KhachHang>
+    <KhachHang>
+        <maKH>2</maKH>
+        <tenKH>Le Le</tenKH>
+        <tienDaMua>3000000</tienDaMua>
+    </KhachHang>
+    <KhachHang>
+        <maKH>3</maKH>
+        <tenKH>Le Li</tenKH>
+        <tienDaMua>2000000</tienDaMua>
+    </KhachHang>
+</KhachHang>

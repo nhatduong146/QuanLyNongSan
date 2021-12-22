@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HoaDonNhapXuat>
+    <HoaDonNhapXuat>
+        <maHD>1</maHD>
+        <maNV>2</maNV>
+        <maKH>3</maKH>
+        <loaiHD>loai 1</loaiHD>
+    </HoaDonNhapXuat>
+    <HoaDonNhapXuat>
+        <maHD>2</maHD>
+        <maNV>3</maNV>
+        <maKH>1</maKH>
+        <loaiHD>loai 2</loaiHD>
+    </HoaDonNhapXuat>
+    <HoaDonNhapXuat>
+        <maHD>3</maHD>
+        <maNV>2</maNV>
+        <maKH>1</maKH>
+        <loaiHD>loai 3</loaiHD>
+    </HoaDonNhapXuat>
+</HoaDonNhapXuat>
