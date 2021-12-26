@@ -1,27 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ChiTietNongSan>
-    <ChiTietNongSan>
-        <maNS>1</maNS>
-        <tenNS>Rau muong</tenNS>
-        <soLuong>2</soLuong>
-        <chiTietNS>khong biet</chiTietNS>
-        <maDMNS>1</maDMNS>
-        <gia>10000</gia>
-    </ChiTietNongSan>
-    <ChiTietNongSan>
-        <maNS>2</maNS>
-        <tenNS>Ca Rot</tenNS>
-        <soLuong>2</soLuong>
-        <chiTietNS>khong biet</chiTietNS>
-        <maDMNS>2</maDMNS>
-        <gia>30000</gia>
-    </ChiTietNongSan>
-    <ChiTietNongSan>
-        <maNS>3</maNS>
-        <tenNS>Ca Chua</tenNS>
-        <soLuong>2</soLuong>
-        <chiTietNS>khong biet</chiTietNS>
-        <maDMNS>3</maDMNS>
-        <gia>50000</gia>
-    </ChiTietNongSan>
-</ChiTietNongSan>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ute>
+  <ChiTietNongSan maNS="1" tenNS="Rau Muống" soLuong="3" chiTiet="nông sản tươi" tenDM="Rau" gia="15000" maDM="Rau" />
+  <ChiTietNongSan maNS="2" tenNS="Rau Dền" soLuong="3" chiTiet="Rau tươi" tenDM="Rau" gia="20000" />
+  <ChiTietNongSan maNS="3" tenNS="Cà Rốt" soLuong="4" chiTiet="mới thu hoạch" tenDM="Củ" gia="50000" />
+  <ChiTietNongSan maNS="4" tenNS="Cà chua" soLuong="5" chiTiet="mới thu hoạch" tenDM="Quả" gia="110000" />
+  <ChiTietNongSan maNS="5" tenNS="Rau Cần" soLuong="2" chiTiet="" tenDM="Rau" gia="10000" />
+  <ChiTietNongSan maNS="6" tenNS="Cà Tím" soLuong="3" chiTiet="nông sản tươi" tenDM="Quả" gia="25000" />
+</ute>

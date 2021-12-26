@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DanhMucNongSan>
-    <DanhMucNongSan>
-        <maDMNS>1</maDMNS>
-        <tenDMNS>Rau</tenDMNS>
-    </DanhMucNongSan>
-    <DanhMucNongSan>
-        <maDMNS>2</maDMNS>
-        <tenDMNS>Cu</tenDMNS>
-    </DanhMucNongSan>
-    <DanhMucNongSan>
-        <maDMNS>3</maDMNS>
-        <tenDMNS>Qua</tenDMNS>
-    </DanhMucNongSan>
-</DanhMucNongSan>
+<ute>
+    <DanhMucNongSan tenDM="Rau" maDM="1"/>
+    <DanhMucNongSan tenDM="Củ" maDM="2"/>
+    <DanhMucNongSan tenDM="Quả" maDM="3"/>
+</ute>

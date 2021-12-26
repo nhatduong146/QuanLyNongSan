@@ -36,3 +36,16 @@ D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.cspr
 D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.CoreCompileInputs.cache
 D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.exe
 D:\School\HK121\XML\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.pdb
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.exe
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.pdb
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\bin\Debug\QuanLyNongSan.exe
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\bin\Debug\QuanLyNongSan.pdb
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csprojResolveAssemblyReference.cache
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form1.resources
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form2.resources
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form3.resources
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form4.resources
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form5.resources
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.FormSaoLuuData.resources
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Properties.Resources.resources
+E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.GenerateResource.Cache
