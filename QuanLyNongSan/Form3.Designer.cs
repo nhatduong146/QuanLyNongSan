@@ -36,13 +36,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.dgvData = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.txtChiTiet = new System.Windows.Forms.TextBox();
             this.txtGia = new System.Windows.Forms.TextBox();
             this.btnSua = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,9 +57,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -91,7 +88,7 @@
             // btnTimKiem
             // 
             this.btnTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnTimKiem.Location = new System.Drawing.Point(848, 31);
+            this.btnTimKiem.Location = new System.Drawing.Point(920, 58);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(77, 45);
             this.btnTimKiem.TabIndex = 3;
@@ -101,7 +98,7 @@
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(705, 31);
+            this.txtTimKiem.Location = new System.Drawing.Point(767, 58);
             this.txtTimKiem.Multiline = true;
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(137, 45);
@@ -111,7 +108,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Azure;
             this.pictureBox1.Image = global::QuanLyNongSan.Properties.Resources.icon06__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(77, 17);
+            this.pictureBox1.Location = new System.Drawing.Point(27, 31);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(63, 60);
             this.pictureBox1.TabIndex = 1;
@@ -124,7 +121,7 @@
             this.label5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label5.Location = new System.Drawing.Point(146, 40);
+            this.label5.Location = new System.Drawing.Point(96, 39);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(518, 37);
             this.label5.TabIndex = 0;
@@ -145,13 +142,13 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupBox1.BackgroundImage = global::QuanLyNongSan.Properties.Resources.canhDong;
-            this.groupBox1.Controls.Add(this.pictureBox4);
-            this.groupBox1.Controls.Add(this.pictureBox2);
-            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.txtChiTiet);
             this.groupBox1.Controls.Add(this.txtGia);
             this.groupBox1.Controls.Add(this.btnSua);
+            this.groupBox1.Controls.Add(this.btnNew);
             this.groupBox1.Controls.Add(this.btnXoa);
             this.groupBox1.Controls.Add(this.btnThem);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtSoLuong);
             this.groupBox1.Controls.Add(this.label3);
@@ -168,48 +165,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin Nông Sản";
             // 
-            // pictureBox4
+            // txtChiTiet
             // 
-            this.pictureBox4.BackgroundImage = global::QuanLyNongSan.Properties.Resources.canhDong;
-            this.pictureBox4.Image = global::QuanLyNongSan.Properties.Resources.icon06__1_;
-            this.pictureBox4.Location = new System.Drawing.Point(629, 93);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 42);
-            this.pictureBox4.TabIndex = 15;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::QuanLyNongSan.Properties.Resources.canhDong;
-            this.pictureBox2.Image = global::QuanLyNongSan.Properties.Resources.icon06__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(457, 164);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 42);
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::QuanLyNongSan.Properties.Resources.canhDong;
-            this.pictureBox3.Image = global::QuanLyNongSan.Properties.Resources.icon06__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(457, 93);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(39, 42);
-            this.pictureBox3.TabIndex = 13;
-            this.pictureBox3.TabStop = false;
+            this.txtChiTiet.Location = new System.Drawing.Point(554, 77);
+            this.txtChiTiet.Multiline = true;
+            this.txtChiTiet.Name = "txtChiTiet";
+            this.txtChiTiet.Size = new System.Drawing.Size(202, 37);
+            this.txtChiTiet.TabIndex = 12;
             // 
             // txtGia
             // 
-            this.txtGia.Location = new System.Drawing.Point(563, 29);
+            this.txtGia.Location = new System.Drawing.Point(554, 31);
             this.txtGia.Multiline = true;
             this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(202, 48);
+            this.txtGia.Size = new System.Drawing.Size(202, 37);
             this.txtGia.TabIndex = 12;
             // 
             // btnSua
             // 
             this.btnSua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnSua.Location = new System.Drawing.Point(502, 157);
+            this.btnSua.Location = new System.Drawing.Point(529, 160);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(91, 46);
             this.btnSua.TabIndex = 10;
@@ -217,10 +192,21 @@
             this.btnSua.UseVisualStyleBackColor = false;
             this.btnSua.Click += new System.EventHandler(this.txtSua_Click);
             // 
+            // btnNew
+            // 
+            this.btnNew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnNew.Location = new System.Drawing.Point(723, 160);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(109, 46);
+            this.btnNew.TabIndex = 9;
+            this.btnNew.Text = "Làm mới";
+            this.btnNew.UseVisualStyleBackColor = false;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+            // 
             // btnXoa
             // 
             this.btnXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnXoa.Location = new System.Drawing.Point(685, 92);
+            this.btnXoa.Location = new System.Drawing.Point(626, 160);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(80, 46);
             this.btnXoa.TabIndex = 9;
@@ -231,13 +217,23 @@
             // btnThem
             // 
             this.btnThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnThem.Location = new System.Drawing.Point(502, 93);
+            this.btnThem.Location = new System.Drawing.Point(430, 160);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(91, 46);
             this.btnThem.TabIndex = 8;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.SkyBlue;
+            this.label7.Location = new System.Drawing.Point(469, 90);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(79, 22);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Chi tiết: ";
             // 
             // label4
             // 
@@ -337,9 +333,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -365,10 +358,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.Button btnTimKiem;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox txtMaNS;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtChiTiet;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Label label7;
     }
 }
