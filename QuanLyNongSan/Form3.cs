@@ -24,7 +24,8 @@ namespace QuanLyNongSan
         {
             InitializeComponent();
             initGrid(gr);
-            grid2textbox(0);
+            grid2textbox(0);
+
         }
         public XDocument open(string url)
         {
@@ -175,7 +176,9 @@ namespace QuanLyNongSan
                  this.txtSoLuong.Text = "";
                  this.txtGia.Text = "";
                  this.cboDanhMuc.Text = "All"; 
-         }
+         }
+
+
         
 
         private void dgvData_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -279,7 +282,8 @@ namespace QuanLyNongSan
             emptyTextBox(true);
             initGrid(gr);
             MessageBox.Show((ok == true ? "Removed!" :
-            "Don't remove or Node not found"));
+            "Don't remove or Node not found"));
+
         }
 
 

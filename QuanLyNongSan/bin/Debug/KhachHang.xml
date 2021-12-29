@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ute>
-    <KhachHang maKH="1" tenKH="Le Le" tienDaMua="2000000"/>
-    <KhachHang maKH="2" tenKH="Le Li" tienDaMua="3000000"/>
-    <KhachHang maKH="3" tenKH="Le La" tienDaMua="4000000"/>
+  <KhachHang maKH="1" tenKH="Le Le" tienDaMua="2170000" />
+  <KhachHang maKH="2" tenKH="Le Li" tienDaMua="3235000" />
+  <KhachHang maKH="3" tenKH="Le La" tienDaMua="4050000" />
 </ute>

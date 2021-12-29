@@ -49,3 +49,17 @@ E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\Q
 E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.FormSaoLuuData.resources
 E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Properties.Resources.resources
 E:\OneDrive\Máy tính\QuanLyNongSan\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.GenerateResource.Cache
+D:\QuanLyNongSan\QuanLyNongSan\bin\Debug\QuanLyNongSan.exe
+D:\QuanLyNongSan\QuanLyNongSan\bin\Debug\QuanLyNongSan.pdb
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.AssemblyReference.cache
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form1.resources
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form2.resources
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form3.resources
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form4.resources
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form5.resources
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.FormSaoLuuData.resources
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Properties.Resources.resources
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.GenerateResource.cache
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.CoreCompileInputs.cache
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.exe
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.pdb
