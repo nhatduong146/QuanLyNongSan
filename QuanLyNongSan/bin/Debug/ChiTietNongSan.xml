@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ute>
-  <ChiTietNongSan maNS="1" tenNS="Rau Muống" soLuong="3" chiTiet="nông sản tươi" tenDM="Rau" gia="15000" maDM="Rau" />
   <ChiTietNongSan maNS="2" tenNS="Rau Dền" soLuong="3" chiTiet="Rau tươi" tenDM="Rau" gia="20000" />
   <ChiTietNongSan maNS="3" tenNS="Cà Rốt" soLuong="4" chiTiet="mới thu hoạch" tenDM="Củ" gia="50000" />
   <ChiTietNongSan maNS="4" tenNS="Cà chua" soLuong="5" chiTiet="mới thu hoạch" tenDM="Quả" gia="110000" />
   <ChiTietNongSan maNS="5" tenNS="Rau Cần" soLuong="2" chiTiet="" tenDM="Rau" gia="10000" />
-  <ChiTietNongSan maNS="6" tenNS="Cà Tím" soLuong="3" chiTiet="nông sản tươi" tenDM="Quả" gia="25000" />
 </ute>

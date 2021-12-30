@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ute>
-    <NhanVien tenNV="Nguyễn A" tenDN="aaaa" matKhau="1234"/>
-    <NhanVien tenNV="Nguyễn B" tenDN="aaaa" matKhau="1234"/>
-    <NhanVien tenNV="Nguyễn C" tenDN="aaaa" matKhau="1234"/>
+    <NhanVien maNV="NV001" tenNV="Ngô Nhật Dương" tenDN="aaaa" matKhau="123456"/>
+    <NhanVien maNV="NV002" tenNV="Lê Lương Minh Hiếu" tenDN="aaaa" matKhau="14062001"/>
+    <NhanVien maNV="NV003" tenNV="Nguyễn Trọng Khang" tenDN="aaaa" matKhau="12342000"/>
 </ute>
