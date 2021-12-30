@@ -38,36 +38,7 @@ namespace QuanLyNongSan
                 return null;
             }
         }
-        public XElement find(string scode, string path)
-        {
-            doc = open(pathNongSan);
-            string group, maNS, tenNS, chiTiet, tenDM, soLuong, gia = "";
-            this.dgvData.Rows.Clear();
-            var list = doc.Descendants("ChiTietNongSan");
-            foreach (XElement node in list)
-            {
-                group = node.Attribute("tenNS").Value.ToLower();
-
-                    if (group.Contains(scode))
-                    {
-                        maNS = node.Attribute("maNS").Value;
-                        tenNS = node.Attribute("tenNS").Value;
-                        soLuong = node.Attribute("soLuong").Value;
-                        chiTiet = node.Attribute("chiTiet").Value;
-                        tenDM = node.Attribute("tenDM").Value;
-                        gia = node.Attribute("gia").Value;
-                        this.dgvData.Rows.Add(maNS, tenNS, soLuong, chiTiet, tenDM, gia);
-                    }
-                
-            }
-            if (list != null)
-            {
-                foreach (XElement node in list)
-                    if (node.Attribute("tenNS").Value.ToLower().Contains(scode.ToLower()))
-                        return node;
-            }
-            return null;
-        }
+        
         public void insert(string maNS, string tenNS, string soLuong, string chiTiet, string tenDM, string gia, string path)
         {
             XDocument doc = open(path);
@@ -182,6 +153,37 @@ namespace QuanLyNongSan
             this.dgvData.Rows[cur].Cells[5].Value.ToString();
             this.cboDanhMuc.SelectedItem = this.dgvData.Rows[cur].Cells[4].Value.ToString();
         }
+
+        public XElement find(string ten, string path)
+        {
+            doc = open(path);
+            string group, maNS, tenNS, chiTiet, tenDM, soLuong, gia = "";
+            this.dgvData.Rows.Clear();
+            var list = doc.Descendants("ChiTietNongSan");
+            foreach (XElement node in list)
+            {
+                group = node.Attribute("tenNS").Value.ToLower();
+
+                    if (group.Contains(ten.ToLower()))
+                    {
+                        maNS = node.Attribute("maNS").Value;
+                        tenNS = node.Attribute("tenNS").Value;
+                        soLuong = node.Attribute("soLuong").Value;
+                        chiTiet = node.Attribute("chiTiet").Value;
+                        tenDM = node.Attribute("tenDM").Value;
+                        gia = node.Attribute("gia").Value;
+                        this.dgvData.Rows.Add(maNS, tenNS, soLuong, chiTiet, tenDM, gia);
+                    }
+                
+            }
+            if (list != null)
+            {
+                foreach (XElement node in list)
+                    if (node.Attribute("tenNS").Value.ToLower().Contains(ten.ToLower()))
+                        return node;
+            }
+            return null;
+        }
         public void emptyTextBox(bool ok)
          {
              if (ok)
@@ -194,7 +196,6 @@ namespace QuanLyNongSan
                  this.txtChiTiet.Text = "";
                  this.txtMaNS.Text = "";
                  this.txtTimKiem.Text = "";
-                 initGrid(gr);
          }
 
 
@@ -223,12 +224,12 @@ namespace QuanLyNongSan
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            string tenNS = this.txtTimKiem.Text.Trim().ToLower();
+            string tenNS = this.txtTimKiem.Text;
             XElement node = find(tenNS, pathNongSan);
             emptyTextBox(true);
             if (node == null)
             {
-                MessageBox.Show("Node not found or Student Code is empty");
+                MessageBox.Show("Khôm tìm thấy tên bạn tìm kiếm");
             }
             else
             {
@@ -331,6 +332,7 @@ namespace QuanLyNongSan
         private void btnNew_Click(object sender, EventArgs e)
         {
             emptyTextBox(true);
+            initGrid(gr);
         }
 
 
