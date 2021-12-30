@@ -34,8 +34,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonDangNhap = new System.Windows.Forms.Button();
-            this.textBoxMatKhau = new System.Windows.Forms.TextBox();
-            this.textBoxTenDN = new System.Windows.Forms.TextBox();
+            this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.txtTenDN = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
@@ -70,8 +70,8 @@
             this.panel1.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg04;
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.buttonDangNhap);
-            this.panel1.Controls.Add(this.textBoxMatKhau);
-            this.panel1.Controls.Add(this.textBoxTenDN);
+            this.panel1.Controls.Add(this.txtMatKhau);
+            this.panel1.Controls.Add(this.txtTenDN);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -102,21 +102,22 @@
             this.buttonDangNhap.UseVisualStyleBackColor = false;
             this.buttonDangNhap.Click += new System.EventHandler(this.buttonDangNhap_Click);
             // 
-            // textBoxMatKhau
+            // txtMatKhau
             // 
-            this.textBoxMatKhau.Location = new System.Drawing.Point(578, 252);
-            this.textBoxMatKhau.Multiline = true;
-            this.textBoxMatKhau.Name = "textBoxMatKhau";
-            this.textBoxMatKhau.Size = new System.Drawing.Size(167, 37);
-            this.textBoxMatKhau.TabIndex = 3;
+            this.txtMatKhau.Location = new System.Drawing.Point(578, 252);
+            this.txtMatKhau.Multiline = true;
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.PasswordChar = '*';
+            this.txtMatKhau.Size = new System.Drawing.Size(167, 37);
+            this.txtMatKhau.TabIndex = 3;
             // 
-            // textBoxTenDN
+            // txtTenDN
             // 
-            this.textBoxTenDN.Location = new System.Drawing.Point(578, 178);
-            this.textBoxTenDN.Multiline = true;
-            this.textBoxTenDN.Name = "textBoxTenDN";
-            this.textBoxTenDN.Size = new System.Drawing.Size(167, 37);
-            this.textBoxTenDN.TabIndex = 2;
+            this.txtTenDN.Location = new System.Drawing.Point(578, 178);
+            this.txtTenDN.Multiline = true;
+            this.txtTenDN.Name = "txtTenDN";
+            this.txtTenDN.Size = new System.Drawing.Size(167, 37);
+            this.txtTenDN.TabIndex = 2;
             // 
             // label2
             // 
@@ -168,8 +169,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonDangNhap;
-        private System.Windows.Forms.TextBox textBoxMatKhau;
-        private System.Windows.Forms.TextBox textBoxTenDN;
+        private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.TextBox txtTenDN;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
