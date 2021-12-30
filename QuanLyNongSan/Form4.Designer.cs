@@ -45,12 +45,13 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.labelMaKhachHang = new System.Windows.Forms.Label();
             this.labelDanhSachNS = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.labelTongTien = new System.Windows.Forms.Label();
+            this.TxTMaKH = new System.Windows.Forms.TextBox();
+            this.btn_LamLmoi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,6 +65,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(38, 155);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(670, 299);
             this.dataGridView1.TabIndex = 0;
@@ -73,9 +75,11 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(746, 301);
             this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(594, 266);
             this.dataGridView2.TabIndex = 1;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // label1
             // 
@@ -129,6 +133,7 @@
             this.buttonXoa.TabIndex = 7;
             this.buttonXoa.Text = "Xóa";
             this.buttonXoa.UseVisualStyleBackColor = false;
+            this.buttonXoa.Click += new System.EventHandler(this.buttonXoa_Click);
             // 
             // buttonThanhToan
             // 
@@ -139,16 +144,18 @@
             this.buttonThanhToan.TabIndex = 8;
             this.buttonThanhToan.Text = "Thanh toán";
             this.buttonThanhToan.UseVisualStyleBackColor = false;
+            this.buttonThanhToan.Click += new System.EventHandler(this.buttonThanhToan_Click_1);
             // 
             // buttonThem
             // 
             this.buttonThem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.buttonThem.Location = new System.Drawing.Point(617, 460);
+            this.buttonThem.Location = new System.Drawing.Point(616, 464);
             this.buttonThem.Name = "buttonThem";
             this.buttonThem.Size = new System.Drawing.Size(91, 44);
             this.buttonThem.TabIndex = 9;
             this.buttonThem.Text = "Thêm";
             this.buttonThem.UseVisualStyleBackColor = false;
+            this.buttonThem.Click += new System.EventHandler(this.buttonThem_Click);
             // 
             // pictureBox1
             // 
@@ -163,8 +170,6 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Teal;
             this.panel2.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg02;
-            this.panel2.Controls.Add(this.buttonTimKiem);
-            this.panel2.Controls.Add(this.textBoxTimKiem);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.pictureBox7);
             this.panel2.Controls.Add(this.label4);
@@ -173,20 +178,22 @@
             this.panel2.Size = new System.Drawing.Size(1400, 85);
             this.panel2.TabIndex = 11;
             this.panel2.TabStop = true;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // buttonTimKiem
             // 
             this.buttonTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.buttonTimKiem.Location = new System.Drawing.Point(1183, 25);
+            this.buttonTimKiem.Location = new System.Drawing.Point(630, 104);
             this.buttonTimKiem.Name = "buttonTimKiem";
             this.buttonTimKiem.Size = new System.Drawing.Size(77, 45);
             this.buttonTimKiem.TabIndex = 5;
             this.buttonTimKiem.Text = "Tìm";
             this.buttonTimKiem.UseVisualStyleBackColor = false;
+            this.buttonTimKiem.Click += new System.EventHandler(this.buttonTimKiem_Click_1);
             // 
             // textBoxTimKiem
             // 
-            this.textBoxTimKiem.Location = new System.Drawing.Point(1040, 25);
+            this.textBoxTimKiem.Location = new System.Drawing.Point(487, 104);
             this.textBoxTimKiem.Multiline = true;
             this.textBoxTimKiem.Name = "textBoxTimKiem";
             this.textBoxTimKiem.Size = new System.Drawing.Size(137, 45);
@@ -201,6 +208,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Thoát";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // pictureBox7
             // 
@@ -228,7 +236,7 @@
             // groupBox1
             // 
             this.groupBox1.BackgroundImage = global::QuanLyNongSan.Properties.Resources.canhDong;
-            this.groupBox1.Controls.Add(this.labelMaKhachHang);
+            this.groupBox1.Controls.Add(this.TxTMaKH);
             this.groupBox1.Controls.Add(this.labelDanhSachNS);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -239,25 +247,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thao tác thanh toán";
             // 
-            // labelMaKhachHang
-            // 
-            this.labelMaKhachHang.AutoSize = true;
-            this.labelMaKhachHang.BackColor = System.Drawing.Color.SkyBlue;
-            this.labelMaKhachHang.Location = new System.Drawing.Point(213, 48);
-            this.labelMaKhachHang.Name = "labelMaKhachHang";
-            this.labelMaKhachHang.Size = new System.Drawing.Size(133, 22);
-            this.labelMaKhachHang.TabIndex = 3;
-            this.labelMaKhachHang.Text = "Mã khách hàng:";
-            // 
             // labelDanhSachNS
             // 
             this.labelDanhSachNS.AutoSize = true;
-            this.labelDanhSachNS.Location = new System.Drawing.Point(166, 99);
+            this.labelDanhSachNS.Location = new System.Drawing.Point(183, 99);
             this.labelDanhSachNS.Name = "labelDanhSachNS";
-            this.labelDanhSachNS.Size = new System.Drawing.Size(391, 66);
+            this.labelDanhSachNS.Size = new System.Drawing.Size(0, 22);
             this.labelDanhSachNS.TabIndex = 2;
-            this.labelDanhSachNS.Text = "Lấy dữ liệu từ bảng Nông sản, rùi in các ............\r\n tên Nông sản vô đây! <3\r\n" +
-                ".......";
             // 
             // label6
             // 
@@ -296,9 +292,26 @@
             this.labelTongTien.AutoSize = true;
             this.labelTongTien.Location = new System.Drawing.Point(936, 660);
             this.labelTongTien.Name = "labelTongTien";
-            this.labelTongTien.Size = new System.Drawing.Size(62, 22);
+            this.labelTongTien.Size = new System.Drawing.Size(0, 22);
             this.labelTongTien.TabIndex = 14;
-            this.labelTongTien.Text = "tiền nè";
+            // 
+            // TxTMaKH
+            // 
+            this.TxTMaKH.Location = new System.Drawing.Point(187, 48);
+            this.TxTMaKH.Name = "TxTMaKH";
+            this.TxTMaKH.Size = new System.Drawing.Size(119, 30);
+            this.TxTMaKH.TabIndex = 3;
+            // 
+            // btn_LamLmoi
+            // 
+            this.btn_LamLmoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btn_LamLmoi.Location = new System.Drawing.Point(507, 464);
+            this.btn_LamLmoi.Name = "btn_LamLmoi";
+            this.btn_LamLmoi.Size = new System.Drawing.Size(91, 44);
+            this.btn_LamLmoi.TabIndex = 9;
+            this.btn_LamLmoi.Text = "Làm Mới";
+            this.btn_LamLmoi.UseVisualStyleBackColor = false;
+            this.btn_LamLmoi.Click += new System.EventHandler(this.btn_LamLmoi_Click);
             // 
             // Form4
             // 
@@ -307,11 +320,14 @@
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg04;
             this.ClientSize = new System.Drawing.Size(1371, 746);
+            this.Controls.Add(this.buttonTimKiem);
+            this.Controls.Add(this.textBoxTimKiem);
             this.Controls.Add(this.labelTongTien);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btn_LamLmoi);
             this.Controls.Add(this.buttonThem);
             this.Controls.Add(this.buttonThanhToan);
             this.Controls.Add(this.buttonXoa);
@@ -362,8 +378,7 @@
         private System.Windows.Forms.Label labelTongTien;
         private System.Windows.Forms.Button buttonTimKiem;
         private System.Windows.Forms.TextBox textBoxTimKiem;
-        private System.Windows.Forms.Label labelMaKhachHang;
-
-
+        private System.Windows.Forms.TextBox TxTMaKH;
+        private System.Windows.Forms.Button btn_LamLmoi;
     }
 }
