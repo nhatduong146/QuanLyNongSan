@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ute>
-  <ChiTietNongSan maNS="NS003" tenNS="Cà Rốt" soLuong="4" chiTiet="Nông sản tươi" tenDM="Củ" gia="50000" maDM="Củ" />
-  <ChiTietNongSan maNS="NS004" tenNS="Cà chua" soLuong="5" chiTiet="Cà tươi" tenDM="Quả" gia="110000" maDM="Rau" />
-  <ChiTietNongSan maNS="NS005" tenNS="Rau Cần" soLuong="2" chiTiet="Nông sản tươi" tenDM="Rau" gia="10000" maDM="Rau" />
+  <ChiTietNongSan maNS="NS003" tenNS="Cà Rốt" soLuong="4" chiTiet="Nông sản tươi" tenDM="Củ" gia="50000" />
+  <ChiTietNongSan maNS="NS004" tenNS="Cà chua" soLuong="5" chiTiet="Cà tươi" tenDM="Quả" gia="110000" />
+  <ChiTietNongSan maNS="NS005" tenNS="Rau Cần" soLuong="2" chiTiet="Nông sản tươi" tenDM="Rau" gia="10000" />
   <ChiTietNongSan maNS="NS006" tenNS="Cà Tím" soLuong="3" chiTiet="nông sản tươi" tenDM="Quả" gia="25000" />
-  <ChiTietNongSan maNS="NS002" tenNS="Rau Dền" soLuong="3" chiTiet="Nông sản tươi" tenDM="Rau" gia="20000" maDM="Rau" />
+  <ChiTietNongSan maNS="NS002" tenNS="Rau Dền" soLuong="3" chiTiet="Nông sản tươi" tenDM="Rau" gia="20000" />
   <ChiTietNongSan maNS="NS001" tenNS="Cà Pháo" soLuong="12" chiTiet="Cà tươi" tenDM="Quả" gia="120000" />
-  <ChiTietNongSan maNS="NS007" tenNS="Chuối Hương" soLuong="1" chiTiet="Chín" tenDM="Quả" gia="5000" maDM="Quả" />
+  <ChiTietNongSan maNS="NS007" tenNS="Chuoi" soLuong="12" chiTiet="aaaa" tenDM="Quả" gia="121212" />
 </ute>
