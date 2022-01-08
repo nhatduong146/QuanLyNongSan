@@ -335,6 +335,15 @@ namespace QuanLyNongSan
             initGrid(gr);
         }
 
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Form2().Show();
+        }
     }
 }

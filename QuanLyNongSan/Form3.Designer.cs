@@ -52,6 +52,7 @@
             this.txtTenNS = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -75,6 +76,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Teal;
             this.panel2.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg02;
+            this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.btnTimKiem);
             this.panel2.Controls.Add(this.txtTimKiem);
             this.panel2.Controls.Add(this.pictureBox1);
@@ -88,7 +90,7 @@
             // btnTimKiem
             // 
             this.btnTimKiem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnTimKiem.Location = new System.Drawing.Point(920, 58);
+            this.btnTimKiem.Location = new System.Drawing.Point(805, 58);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(77, 45);
             this.btnTimKiem.TabIndex = 3;
@@ -98,11 +100,12 @@
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(767, 58);
+            this.txtTimKiem.Location = new System.Drawing.Point(662, 61);
             this.txtTimKiem.Multiline = true;
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(137, 45);
             this.txtTimKiem.TabIndex = 2;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // pictureBox1
             // 
@@ -318,6 +321,17 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên Nông Sản:";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Red;
+            this.button4.Location = new System.Drawing.Point(918, 54);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(79, 43);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Thoát";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -363,5 +377,6 @@
         private System.Windows.Forms.TextBox txtChiTiet;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button4;
     }
 }

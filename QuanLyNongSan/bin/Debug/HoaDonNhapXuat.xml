@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" standalone="yes"?>
 <ute>
   <HoaDonNhapXuat maHD="1" tenNV="Nguyễn A" tenKH="Le La" loaiHD="Loại 1" />
   <HoaDonNhapXuat maHD="2" tenNV="Nguyễn C" tenKH="Le Li" loaiHD="Loại 3" />

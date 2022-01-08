@@ -37,6 +37,9 @@
             this.dgvData = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnLamMoi = new System.Windows.Forms.Button();
+            this.txtTienDaMua = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
@@ -46,9 +49,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtTienDaMua = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnLamMoi = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
@@ -93,12 +93,13 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Red;
-            this.button4.Location = new System.Drawing.Point(1047, 26);
+            this.button4.Location = new System.Drawing.Point(1114, 26);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(79, 43);
             this.button4.TabIndex = 6;
             this.button4.Text = "Thoát";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox7
             // 
@@ -169,6 +170,33 @@
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin";
+            // 
+            // btnLamMoi
+            // 
+            this.btnLamMoi.Location = new System.Drawing.Point(342, 287);
+            this.btnLamMoi.Name = "btnLamMoi";
+            this.btnLamMoi.Size = new System.Drawing.Size(97, 38);
+            this.btnLamMoi.TabIndex = 12;
+            this.btnLamMoi.Text = "Làm mới";
+            this.btnLamMoi.UseVisualStyleBackColor = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
+            // 
+            // txtTienDaMua
+            // 
+            this.txtTienDaMua.Location = new System.Drawing.Point(172, 214);
+            this.txtTienDaMua.Name = "txtTienDaMua";
+            this.txtTienDaMua.Size = new System.Drawing.Size(237, 30);
+            this.txtTienDaMua.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.SkyBlue;
+            this.label6.Location = new System.Drawing.Point(15, 217);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(106, 22);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Tiền đã mua";
             // 
             // btnXoa
             // 
@@ -250,33 +278,6 @@
             this.label5.Size = new System.Drawing.Size(127, 22);
             this.label5.TabIndex = 1;
             this.label5.Text = "Mã khách hàng";
-            // 
-            // txtTienDaMua
-            // 
-            this.txtTienDaMua.Location = new System.Drawing.Point(172, 214);
-            this.txtTienDaMua.Name = "txtTienDaMua";
-            this.txtTienDaMua.Size = new System.Drawing.Size(237, 30);
-            this.txtTienDaMua.TabIndex = 11;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.SkyBlue;
-            this.label6.Location = new System.Drawing.Point(15, 217);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 22);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Tiền đã mua";
-            // 
-            // btnLamMoi
-            // 
-            this.btnLamMoi.Location = new System.Drawing.Point(342, 287);
-            this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(97, 38);
-            this.btnLamMoi.TabIndex = 12;
-            this.btnLamMoi.Text = "Làm mới";
-            this.btnLamMoi.UseVisualStyleBackColor = true;
-            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // Form5
             // 

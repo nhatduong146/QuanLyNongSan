@@ -323,10 +323,18 @@ namespace QuanLyNongSan
             {
                 DialogResult dlr = MessageBox.Show("Bạn chưa hoàn tất việc thành toán! \n Bạn có chắc muốn thoát khỏi chức năng này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dlr == DialogResult.Yes)
-                    this.Close();
+                {
+                    this.Hide();
+                    new Form2().Show();
+                }
             }
             else
-                this.Close();
+            {
+                this.Hide();
+                new Form2().Show();
+
+            }
+                
         }
 
         private void buttonTimKiem_Click_1(object sender, EventArgs e)
