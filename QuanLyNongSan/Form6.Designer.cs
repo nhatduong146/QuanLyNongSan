@@ -79,6 +79,7 @@
             this.buttonXML_SQL.TabIndex = 2;
             this.buttonXML_SQL.Text = "Chuyển đổi XML -> mySQL";
             this.buttonXML_SQL.UseVisualStyleBackColor = false;
+            this.buttonXML_SQL.Click += new System.EventHandler(this.buttonXML_SQL_Click);
             // 
             // buttonSQL_XML
             // 
@@ -126,7 +127,6 @@
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormSaoLuuData";
-            this.Text = "Form6";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
