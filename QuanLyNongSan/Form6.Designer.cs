@@ -90,6 +90,7 @@
             this.buttonSQL_XML.TabIndex = 3;
             this.buttonSQL_XML.Text = "Chuyển đổi mySQL - XML";
             this.buttonSQL_XML.UseVisualStyleBackColor = false;
+            this.buttonSQL_XML.Click += new System.EventHandler(this.buttonSQL_XML_Click);
             // 
             // btnRestore
             // 
