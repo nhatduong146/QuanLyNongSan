@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ute>
   <HoaDonNhapXuat maHD="1" tenNV="Nguyễn A" tenKH="Le La" loaiHD="Loại 1" />
   <HoaDonNhapXuat maHD="2" tenNV="Nguyễn C" tenKH="Le Li" loaiHD="Loại 3" />
@@ -6,7 +6,4 @@
   <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
   <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Li" loaiHD="Loại 2" />
   <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le La" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Li" loaiHD="Loại 2" />
 </ute>

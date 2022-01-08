@@ -86,6 +86,7 @@
             this.buttonSQL_XML.TabIndex = 3;
             this.buttonSQL_XML.Text = "Sao lưu (mySQL - XML)";
             this.buttonSQL_XML.UseVisualStyleBackColor = false;
+            this.buttonSQL_XML.Click += new System.EventHandler(this.buttonSQL_XML_Click);
             // 
             // buttonKhoiPhuc
             // 

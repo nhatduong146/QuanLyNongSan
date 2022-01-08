@@ -1,6 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ute>
-  <KhachHang maKH="1" tenKH="Le Le" tienDaMua="2170000" />
-  <KhachHang maKH="2" tenKH="Le Li" tienDaMua="3235000" />
-  <KhachHang maKH="3" tenKH="Le La" tienDaMua="4050000" />
+  <KhachHang maKH="KH003" tenKH="Võ Thị Vân" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH006" tenKH="Võ Thị Vân Thùy" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH005" tenKH="Dương Ngô" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH001" tenKH="Dương Nhât" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH008" tenKH="Dương 122" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH009" tenKH="Võ Thị Vân 123" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH004" tenKH="Phong Vân Vũ" namSinh="1994" tienDaMua="3000000" />
 </ute>
