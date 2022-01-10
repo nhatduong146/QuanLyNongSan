@@ -278,5 +278,10 @@ namespace QuanLyNongSan
             this.Hide();
             new Form2().Show();
         }
+
+        private void txtMaKH_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

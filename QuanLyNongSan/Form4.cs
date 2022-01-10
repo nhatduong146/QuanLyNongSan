@@ -233,8 +233,7 @@ namespace QuanLyNongSan
 
         private void dataGridView1_MouseCaptureChanged(object sender, EventArgs e)
         {
-            Image image = Image.FromFile("imgs/" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + ".jpg");
-            pictureBox1.Image = image;
+            
 
         }
         private void textBoxMaKhachHang_TextChanged(object sender, EventArgs e)
@@ -319,21 +318,7 @@ namespace QuanLyNongSan
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            if (dataGridView2.Rows.Count <=1)
-            {
-                DialogResult dlr = MessageBox.Show("Bạn chưa hoàn tất việc thành toán! \n Bạn có chắc muốn thoát khỏi chức năng này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (dlr == DialogResult.Yes)
-                {
-                    this.Hide();
-                    new Form2().Show();
-                }
-            }
-            else
-            {
-                this.Hide();
-                new Form2().Show();
-
-            }
+           
                 
         }
 
@@ -424,6 +409,35 @@ namespace QuanLyNongSan
         {
             initGrid(gr);
             textBoxTimKiem.Text = "";
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxSoLuong_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            if (dataGridView2.Rows.Count <= 1)
+            {
+                DialogResult dlr = MessageBox.Show("Bạn chưa hoàn tất việc thành toán! \n Bạn có chắc muốn thoát khỏi chức năng này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dlr == DialogResult.Yes)
+                {
+                    this.Hide();
+                    new Form2().Show();
+                }
+            }
+            else
+            {
+                this.Hide();
+                new Form2().Show();
+
+            }
         }
     }
 }

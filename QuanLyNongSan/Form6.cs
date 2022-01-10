@@ -32,7 +32,6 @@ namespace QuanLyNongSan
         string database = "QuanLyNongSan";
         string user = "sa";
         string pass = "tttl1209ntk0208";
-        SqlConnection con;
         public FormSaoLuuData()
         {
             InitializeComponent();
