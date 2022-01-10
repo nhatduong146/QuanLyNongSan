@@ -1,9 +1,9 @@
 <?xml version="1.0" standalone="yes"?>
 <ute>
-  <HoaDonNhapXuat maHD="1" tenNV="Nguyễn A" tenKH="Le La" loaiHD="Loại 1" />
-  <HoaDonNhapXuat maHD="2" tenNV="Nguyễn C" tenKH="Le Li" loaiHD="Loại 3" />
-  <HoaDonNhapXuat maHD="3" tenNV="Nguyễn B" tenKH="Le Le" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD001" tenNV="Nguyễn A" tenKH="Le La" loaiHD="Loại 1" />
+  <HoaDonNhapXuat maHD="HD002" tenNV="Nguyễn C" tenKH="Le Li" loaiHD="Loại 3" />
+  <HoaDonNhapXuat maHD="HD003" tenNV="Nguyễn B" tenKH="Le Le" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD004" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
   <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Li" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le La" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD006" tenNV="Nguyễn Văn A" tenKH="Le La" loaiHD="Loại 2" />
 </ute>

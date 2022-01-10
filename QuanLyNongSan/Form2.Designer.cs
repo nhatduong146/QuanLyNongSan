@@ -92,6 +92,7 @@
             this.buttonLSThanhToan.TabIndex = 5;
             this.buttonLSThanhToan.Text = "Lịch sử Thanh toán";
             this.buttonLSThanhToan.UseVisualStyleBackColor = false;
+            this.buttonLSThanhToan.Click += new System.EventHandler(this.buttonLSThanhToan_Click);
             // 
             // buttonCapNhat
             // 

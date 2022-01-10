@@ -77,3 +77,4 @@ E:\OneDrive\Máy tính\New folder\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\Quan
 E:\OneDrive\Máy tính\New folder\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Form7.resources
 E:\OneDrive\Máy tính\New folder\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.Properties.Resources.resources
 E:\OneDrive\Máy tính\New folder\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.csproj.GenerateResource.Cache
+D:\QuanLyNongSan\QuanLyNongSan\obj\x86\Debug\QuanLyNongSan.FormLichSuTT.resources

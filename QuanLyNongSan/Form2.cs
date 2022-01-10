@@ -43,5 +43,12 @@ namespace QuanLyNongSan
             this.Hide();
             form6.Show();
         }
+
+        private void buttonLSThanhToan_Click(object sender, EventArgs e)
+        {
+            FormLichSuTT form7 = new FormLichSuTT();
+            this.Hide();
+            form7.Show();
+        }
     }
 }
