@@ -1,13 +1,17 @@
-<?xml version="1.0" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ute>
   <ChiTietHD maHD="HD001" tenNS="Cà Rốt" soLuong="1" gia="5000" />
-  <ChiTietHD maHD="HD001" tenNS="Cà Chua" soLuong="1" gia="15000" />
-  <ChiTietHD maHD="HD002" tenNS="Cà Tím" soLuong="3" gia="15000" />
-  <ChiTietHD maHD="HD002" tenNS="Rau Muống" soLuong="2" gia="10000" />
-  <ChiTietHD maHD="HD003" tenNS="Rau Muống" soLuong="2" gia="15000" />
-  <ChiTietHD maHD="HD004" tenNS="Cà chua" soLuong="2" gia="110000" />
-  <ChiTietHD maHD="HD005" tenNS="Cà Rốt" soLuong="1" gia="50000" />
-  <ChiTietHD maHD="HD005" tenNS="Rau Dền" soLuong="2" gia="20000" />
-  <ChiTietHD maHD="HD005" tenNS="Cà Rốt" soLuong="2" gia="50000" />
-  <ChiTietHD maHD="HD006" tenNS="Rau Muống" soLuong="1" gia="15000" />
+  <ChiTietHD maHD="HD002" tenNS="Cà Chua" soLuong="1" gia="15000" />
+  <ChiTietHD maHD="HD003" tenNS="Cà Tím" soLuong="3" gia="15000" />
+  <ChiTietHD maHD="HD004" tenNS="Rau Muống" soLuong="2" gia="10000" />
+  <ChiTietHD maHD="HD005" tenNS="Rau Muống" soLuong="2" gia="15000" />
+  <ChiTietHD maHD="HD006" tenNS="Cà chua" soLuong="2" gia="110000" />
+  <ChiTietHD maHD="HD006" tenNS="Cà Rốt" soLuong="1" gia="50000" />
+  <ChiTietHD maHD="HD002" tenNS="Rau Dền" soLuong="2" gia="20000" />
+  <ChiTietHD maHD="HD003" tenNS="Cà Rốt" soLuong="2" gia="50000" />
+  <ChiTietHD maHD="HD001" tenNS="Rau Muống" soLuong="1" gia="15000" />
+  <ChiTietHD maHD="HD007" tenNS="Cà Pháo" soLuong="2" gia="120000" />
+  <ChiTietHD maHD="HD007" tenNS="Chuoi" soLuong="1" gia="121212" />
+  <ChiTietHD maHD="HD008" tenNS="Cà Pháo" soLuong="2" gia="120000" />
+  <ChiTietHD maHD="HD008" tenNS="Rau Cần" soLuong="1" gia="10000" />
 </ute>

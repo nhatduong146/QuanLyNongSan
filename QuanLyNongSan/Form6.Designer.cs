@@ -97,15 +97,15 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(128, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(503, 43);
+            this.label1.Size = new System.Drawing.Size(401, 35);
             this.label1.TabIndex = 8;
             this.label1.Text = "QUẢN LÝ CSDL - SAO LƯU";
             // 
             // FormSaoLuuData
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg051;
+            this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.ground;
             this.ClientSize = new System.Drawing.Size(808, 415);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);

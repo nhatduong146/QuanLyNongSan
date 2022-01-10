@@ -1,7 +1,6 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0"?>
 <ute>
-  <NhanVien maNV="NV001" tenNV="Ngô Nhật Dương" tenDN="duong" matKhau="123456" />
-  <NhanVien maNV="NV002" tenNV="Lê Lương Minh Hiếu" tenDN="hieu" matKhau="123456" />
-  <NhanVien maNV="NV003" tenNV="Nguyễn Trọng Khang" tenDN="khang" matKhau="123456" />
-  <NhanVien maNV="NV004" tenNV="Thùy Vân" tenDN="van" matKhau="123456" />
+  <NhanVien maNV="NV001" tenNV="Ngô Nhật Dương" tenDN="aaaa" matKhau="123456" />
+  <NhanVien maNV="NV002" tenNV="Lê Lương Minh Hiếu" tenDN="aaaa2" matKhau="14062001" />
+  <NhanVien maNV="NV003" tenNV="Nguyễn Trọng Khang" tenDN="aaa" matKhau="12342000" />
 </ute>

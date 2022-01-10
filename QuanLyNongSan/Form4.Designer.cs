@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -81,10 +80,9 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Cursor = System.Windows.Forms.Cursors.Cross;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
             this.label1.Location = new System.Drawing.Point(38, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 34);
+            this.label1.Size = new System.Drawing.Size(157, 27);
             this.label1.TabIndex = 2;
             this.label1.Text = "Bảng Nông sản";
             // 
@@ -93,10 +91,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
             this.label2.Location = new System.Drawing.Point(21, 422);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 32);
+            this.label2.Size = new System.Drawing.Size(153, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Bảng Giỏ hàng";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -105,7 +102,7 @@
             // 
             this.textBoxSoLuong.Location = new System.Drawing.Point(213, 374);
             this.textBoxSoLuong.Name = "textBoxSoLuong";
-            this.textBoxSoLuong.Size = new System.Drawing.Size(169, 30);
+            this.textBoxSoLuong.Size = new System.Drawing.Size(169, 26);
             this.textBoxSoLuong.TabIndex = 5;
             this.textBoxSoLuong.TextChanged += new System.EventHandler(this.textBoxSoLuong_TextChanged);
             // 
@@ -114,10 +111,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
             this.label3.Location = new System.Drawing.Point(85, 374);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 26);
+            this.label3.Size = new System.Drawing.Size(83, 22);
             this.label3.TabIndex = 6;
             this.label3.Text = "Số lượng";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -125,7 +121,7 @@
             // buttonXoa
             // 
             this.buttonXoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.buttonXoa.Location = new System.Drawing.Point(880, 598);
+            this.buttonXoa.Location = new System.Drawing.Point(761, 598);
             this.buttonXoa.Name = "buttonXoa";
             this.buttonXoa.Size = new System.Drawing.Size(72, 44);
             this.buttonXoa.TabIndex = 7;
@@ -136,7 +132,7 @@
             // buttonThanhToan
             // 
             this.buttonThanhToan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.buttonThanhToan.Location = new System.Drawing.Point(757, 598);
+            this.buttonThanhToan.Location = new System.Drawing.Point(761, 535);
             this.buttonThanhToan.Name = "buttonThanhToan";
             this.buttonThanhToan.Size = new System.Drawing.Size(112, 44);
             this.buttonThanhToan.TabIndex = 8;
@@ -147,7 +143,7 @@
             // btnThoat
             // 
             this.btnThoat.BackColor = System.Drawing.Color.Red;
-            this.btnThoat.Location = new System.Drawing.Point(861, 12);
+            this.btnThoat.Location = new System.Drawing.Point(811, 12);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(91, 44);
             this.btnThoat.TabIndex = 9;
@@ -176,20 +172,19 @@
             // 
             // TxTMaKH
             // 
-            this.TxTMaKH.Location = new System.Drawing.Point(800, 140);
+            this.TxTMaKH.Location = new System.Drawing.Point(761, 136);
             this.TxTMaKH.Name = "TxTMaKH";
-            this.TxTMaKH.Size = new System.Drawing.Size(119, 30);
+            this.TxTMaKH.Size = new System.Drawing.Size(119, 26);
             this.TxTMaKH.TabIndex = 3;
             // 
             // labelDanhSachNS
             // 
             this.labelDanhSachNS.AutoSize = true;
             this.labelDanhSachNS.BackColor = System.Drawing.Color.White;
-            this.labelDanhSachNS.Location = new System.Drawing.Point(797, 230);
+            this.labelDanhSachNS.Location = new System.Drawing.Point(771, 231);
             this.labelDanhSachNS.Name = "labelDanhSachNS";
-            this.labelDanhSachNS.Size = new System.Drawing.Size(19, 22);
+            this.labelDanhSachNS.Size = new System.Drawing.Size(0, 19);
             this.labelDanhSachNS.TabIndex = 2;
-            this.labelDanhSachNS.Text = "a";
             // 
             // label6
             // 
@@ -197,10 +192,9 @@
             this.label6.BackColor = System.Drawing.Color.SkyBlue;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
             this.label6.Location = new System.Drawing.Point(762, 189);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(94, 23);
+            this.label6.Size = new System.Drawing.Size(76, 19);
             this.label6.TabIndex = 1;
             this.label6.Text = "Tên hàng:";
             // 
@@ -210,10 +204,9 @@
             this.label5.BackColor = System.Drawing.Color.SkyBlue;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
             this.label5.Location = new System.Drawing.Point(762, 105);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(145, 23);
+            this.label5.Size = new System.Drawing.Size(118, 19);
             this.label5.TabIndex = 0;
             this.label5.Text = "Mã khách hàng:";
             // 
@@ -222,10 +215,9 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Image = global::QuanLyNongSan.Properties.Resources.bg04;
-            this.label8.Location = new System.Drawing.Point(781, 457);
+            this.label8.Location = new System.Drawing.Point(762, 457);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(150, 26);
+            this.label8.Size = new System.Drawing.Size(121, 22);
             this.label8.TabIndex = 13;
             this.label8.Text = "Tổng số tiền: ";
             // 
@@ -233,11 +225,10 @@
             // 
             this.labelTongTien.AutoSize = true;
             this.labelTongTien.BackColor = System.Drawing.Color.White;
-            this.labelTongTien.Location = new System.Drawing.Point(796, 495);
+            this.labelTongTien.Location = new System.Drawing.Point(771, 495);
             this.labelTongTien.Name = "labelTongTien";
-            this.labelTongTien.Size = new System.Drawing.Size(20, 22);
+            this.labelTongTien.Size = new System.Drawing.Size(0, 19);
             this.labelTongTien.TabIndex = 14;
-            this.labelTongTien.Text = "d";
             // 
             // btn_LamLmoi
             // 
@@ -256,11 +247,10 @@
             this.label4.BackColor = System.Drawing.Color.MintCream;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Image = global::QuanLyNongSan.Properties.Resources.bg052;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label4.Location = new System.Drawing.Point(194, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(598, 37);
+            this.label4.Size = new System.Drawing.Size(498, 31);
             this.label4.TabIndex = 15;
             this.label4.Text = "QUẢN LÝ BÁN HÀNG - THANH TOÁN";
             // 
@@ -277,11 +267,11 @@
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg05;
-            this.ClientSize = new System.Drawing.Size(983, 667);
+            this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.ground;
+            this.ClientSize = new System.Drawing.Size(917, 667);
             this.Controls.Add(this.labelDanhSachNS);
             this.Controls.Add(this.TxTMaKH);
             this.Controls.Add(this.label6);
@@ -306,6 +296,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form4";
             this.Text = "Bán Nông Sản";
+            this.Load += new System.EventHandler(this.Form4_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);

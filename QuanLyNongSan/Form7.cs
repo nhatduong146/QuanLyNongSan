@@ -99,7 +99,7 @@ namespace QuanLyNongSan
                 tien = int.Parse(dgvChiTiet1.Rows[i].Cells[1].Value.ToString()) * int.Parse(dgvChiTiet1.Rows[i].Cells[2].Value.ToString());
                 tongTien += tien;
             }
-            thanhtien.Text = tongTien.ToString()+  " VNĐ";
+            thanhtien.Text = tongTien.ToString()+  " đ";
         }
 
         private void dgvLichSu1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -154,10 +154,12 @@ namespace QuanLyNongSan
                     txtTimKiem1.Text = "";
                     initGrid();
                 }
+            txtTimKiem1.Text = "";
         }
 
         private void Refersh_Click(object sender, EventArgs e)
         {
+            txtTimKiem1.Text = "";
             initGrid();
         }
 

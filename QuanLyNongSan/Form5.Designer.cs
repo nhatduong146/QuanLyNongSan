@@ -89,13 +89,13 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(354, 368);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(294, 26);
+            this.label1.Size = new System.Drawing.Size(237, 22);
             this.label1.TabIndex = 11;
             this.label1.Text = "Bảng Thông tin khách hàng";
             // 
             // groupBox1
             // 
-            this.groupBox1.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg051;
+            this.groupBox1.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg041;
             this.groupBox1.Controls.Add(this.btnLamMoi);
             this.groupBox1.Controls.Add(this.txtTienDaMua);
             this.groupBox1.Controls.Add(this.label6);
@@ -130,7 +130,7 @@
             // 
             this.txtTienDaMua.Location = new System.Drawing.Point(541, 96);
             this.txtTienDaMua.Name = "txtTienDaMua";
-            this.txtTienDaMua.Size = new System.Drawing.Size(237, 30);
+            this.txtTienDaMua.Size = new System.Drawing.Size(237, 26);
             this.txtTienDaMua.TabIndex = 11;
             // 
             // label6
@@ -139,7 +139,7 @@
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(429, 99);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(106, 22);
+            this.label6.Size = new System.Drawing.Size(82, 19);
             this.label6.TabIndex = 10;
             this.label6.Text = "Tiền đã mua";
             // 
@@ -180,21 +180,21 @@
             // 
             this.txtTenKH.Location = new System.Drawing.Point(153, 91);
             this.txtTenKH.Name = "txtTenKH";
-            this.txtTenKH.Size = new System.Drawing.Size(237, 30);
+            this.txtTenKH.Size = new System.Drawing.Size(237, 26);
             this.txtTenKH.TabIndex = 6;
             // 
             // txtNamSinh
             // 
             this.txtNamSinh.Location = new System.Drawing.Point(541, 38);
             this.txtNamSinh.Name = "txtNamSinh";
-            this.txtNamSinh.Size = new System.Drawing.Size(237, 30);
+            this.txtNamSinh.Size = new System.Drawing.Size(237, 26);
             this.txtNamSinh.TabIndex = 5;
             // 
             // txtMaKH
             // 
             this.txtMaKH.Location = new System.Drawing.Point(149, 38);
             this.txtMaKH.Name = "txtMaKH";
-            this.txtMaKH.Size = new System.Drawing.Size(237, 30);
+            this.txtMaKH.Size = new System.Drawing.Size(237, 26);
             this.txtMaKH.TabIndex = 4;
             this.txtMaKH.TextChanged += new System.EventHandler(this.txtMaKH_TextChanged);
             // 
@@ -204,7 +204,7 @@
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(429, 38);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 22);
+            this.label4.Size = new System.Drawing.Size(66, 19);
             this.label4.TabIndex = 3;
             this.label4.Text = "Năm sinh";
             // 
@@ -214,7 +214,7 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(16, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 22);
+            this.label2.Size = new System.Drawing.Size(104, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tên khách hàng";
             // 
@@ -224,7 +224,7 @@
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(16, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 22);
+            this.label5.Size = new System.Drawing.Size(102, 19);
             this.label5.TabIndex = 1;
             this.label5.Text = "Mã khách hàng";
             // 
@@ -249,15 +249,15 @@
             this.label3.Location = new System.Drawing.Point(262, 9);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(414, 37);
+            this.label3.Size = new System.Drawing.Size(343, 31);
             this.label3.TabIndex = 13;
             this.label3.Text = "QUẢN LÝ KHÁCH HÀNG ";
             // 
             // Form5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg051;
+            this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.ground;
             this.ClientSize = new System.Drawing.Size(983, 667);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnSearch);
