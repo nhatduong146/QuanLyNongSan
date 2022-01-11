@@ -77,7 +77,7 @@
             this.buttonXML_SQL.Name = "buttonXML_SQL";
             this.buttonXML_SQL.Size = new System.Drawing.Size(267, 44);
             this.buttonXML_SQL.TabIndex = 2;
-            this.buttonXML_SQL.Text = "Chuyển đổi XML -> mySQL";
+            this.buttonXML_SQL.Text = "Chuyển đổi XML -> SQL";
             this.buttonXML_SQL.UseVisualStyleBackColor = false;
             this.buttonXML_SQL.Click += new System.EventHandler(this.buttonXML_SQL_Click);
             // 
@@ -88,7 +88,7 @@
             this.buttonSQL_XML.Name = "buttonSQL_XML";
             this.buttonSQL_XML.Size = new System.Drawing.Size(266, 43);
             this.buttonSQL_XML.TabIndex = 3;
-            this.buttonSQL_XML.Text = "Chuyển đổi mySQL - XML";
+            this.buttonSQL_XML.Text = "Chuyển đổi SQL - XML";
             this.buttonSQL_XML.UseVisualStyleBackColor = false;
             this.buttonSQL_XML.Click += new System.EventHandler(this.buttonSQL_XML_Click);
             // 

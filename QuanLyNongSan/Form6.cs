@@ -27,12 +27,6 @@ namespace QuanLyNongSan
         string pathKhachHang = "KhachHang.xml";
         string pathNhanVien = "NhanVien.xml";
 
-
-        string sever = @"TRONG-KHANG\TRANTHITHULUYEN";
-        string database = "QuanLyNongSan";
-        string user = "sa";
-        string pass = "tttl1209ntk0208";
-        SqlConnection con;
         public FormSaoLuuData()
         {
             InitializeComponent();
@@ -186,16 +180,10 @@ namespace QuanLyNongSan
             
             MessageBox.Show("Khôi phục dữ liệu thành công");
         }
-        public void ketnoi()
-        {
-            string url = @"Data Source=" + sever + ";Initial Catalog=" + database +
-               ";Persist Security Info = True; User ID=" + user + ";Password=" + pass;
-            con = new SqlConnection(url);
-        }
 
         public void TaoXML(string bang)
         {
-            ketnoi();
+            connect();
             con.Open();
             string sql = "Select * from " + bang + " for xml auto";
             SqlDataAdapter ad = new SqlDataAdapter(sql, con);
@@ -216,7 +204,7 @@ namespace QuanLyNongSan
             TaoXML("HoaDonNhapXuat");
             TaoXML("KhachHang");
             TaoXML("NhanVien");
-            MessageBox.Show("Chuyển đồi dữ liệu thành công", "Thong Bao");
+            MessageBox.Show("Chuyển đồi dữ liệu từ sql sang xml thành công");
         }
     }
 }
