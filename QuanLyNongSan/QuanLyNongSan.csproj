@@ -83,6 +83,12 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -206,6 +215,102 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg041.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg042.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg052.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg0411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canhDong1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon02 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon05 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon06 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image02 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetable01 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg043.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg044.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg053.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg112.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg0412.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canhDong2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon02 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon05 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon06 %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image02 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegetable01 %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg054.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg0521.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

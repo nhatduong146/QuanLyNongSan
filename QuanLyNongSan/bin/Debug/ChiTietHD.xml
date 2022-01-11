@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ute>
   <ChiTietHoaDon maHD="1" tenNS="Cà Rốt" soLuong="1" gia="5000" />
   <ChiTietHoaDon maHD="2" tenNS="Cà Chua" soLuong="1" gia="15000" />

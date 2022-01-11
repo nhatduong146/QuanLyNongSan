@@ -127,8 +127,20 @@
   <data name="bg01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg01.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon041.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg053.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg112.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetable01 (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetable01 (1)3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image02 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image02 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg08" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg08.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,11 +148,32 @@
   <data name="vegetable01 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vegetable01 (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg052.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vegetable01 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vegetable01 (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg043.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon06 (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon06 (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon05 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon05 (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg06" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg06.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="canhDong1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canhDong1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg051" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg051.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg101.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon06 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon06 (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,29 +181,53 @@
   <data name="bg07" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg07.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg10.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image03 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image03 (2).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg054" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg054.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg011.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg111.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon05 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon05 (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg04.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image01.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon02 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon02 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg02.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg09" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg09.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (3).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg04.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg044.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon06 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon06 (2).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +235,20 @@
   <data name="vegetable01 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vegetable01 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg041.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon06 (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon06 (2)2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (1).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canhDong2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canhDong2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (3).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,20 +256,47 @@
   <data name="bg05" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg05.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image02 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image02 (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="image12 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image12 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2)2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg011" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg011.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg0521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg0521.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg102" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg102.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon05 (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon05 (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon02 (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon02 (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg0411" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg0411.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg042.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vàng và Xanh lá Lá Dễ thương và Tinh nghịch Thức ăn và Du lịch Biểu trưng (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg0412" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg0412.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="canhDong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\canhDong.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="image12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ground.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

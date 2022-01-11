@@ -187,8 +187,8 @@ namespace QuanLyNongSan
 
             foreach (XElement el in list)
             {
-                string code = el.Attribute("maKH").Value.ToLower().Trim();
-                if (code.Contains(scode))
+                string code = el.Attribute("maKH").Value.ToLower();
+                if (code.Equals(scode))
                 {
                     return el;
 
@@ -233,8 +233,7 @@ namespace QuanLyNongSan
 
         private void dataGridView1_MouseCaptureChanged(object sender, EventArgs e)
         {
-            Image image = Image.FromFile("imgs/" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + ".jpg");
-            pictureBox1.Image = image;
+            
 
         }
         private void textBoxMaKhachHang_TextChanged(object sender, EventArgs e)
@@ -265,14 +264,35 @@ namespace QuanLyNongSan
             var list = doc.Root.Nodes();
             foreach (XElement dt in list)
             {
-                string code = dt.Attribute("maKH").Value.ToLower().Trim();
-                if (code.Contains(maKH))
+                string code = dt.Attribute("maKH").Value.ToLower();
+                if (code.Equals(maKH))
                 {
                     str = dt.Attribute("tenKH").Value;
 
                 }
             }
             return str;
+        }
+
+        public String findHD(string path)
+        {
+            int mahd=0;
+            XDocument doc = open(path);
+            var list = doc.Root.Nodes();
+            foreach (XElement dt in list)
+            {
+                int hd = int.Parse(dt.Attribute("maHD").Value.Substring(2));
+                if (hd > mahd)
+                    mahd = hd;
+            }
+            mahd++;
+            if(mahd<10)
+                return "HD00" + mahd.ToString();
+            else
+                if(mahd<100)
+                return "HD0" + mahd.ToString();
+            else
+                return "HD" + mahd.ToString();
         }
         private void buttonThanhToan_Click(object sender, EventArgs e)
         {
@@ -319,21 +339,7 @@ namespace QuanLyNongSan
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            if (dataGridView2.Rows.Count <=1)
-            {
-                DialogResult dlr = MessageBox.Show("Bạn chưa hoàn tất việc thành toán! \n Bạn có chắc muốn thoát khỏi chức năng này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (dlr == DialogResult.Yes)
-                {
-                    this.Hide();
-                    new Form2().Show();
-                }
-            }
-            else
-            {
-                this.Hide();
-                new Form2().Show();
-
-            }
+           
                 
         }
 
@@ -351,15 +357,16 @@ namespace QuanLyNongSan
             }
         }
 
+
         private void buttonThanhToan_Click_1(object sender, EventArgs e)
         {
-            String maKH = TxTMaKH.Text;
+            String maKH = TxTMaKH.Text.ToLower();
             if (maKH == "")
                 MessageBox.Show("Chua nhap maKH");
             else
             {
                 String tenkh = findTH(maKH, pathKhachHang);
-                string mans = "";
+                
                 List<XElement> elements = new List<XElement>();
                 XDocument docCT = open(pathChiTietHoaDon);
                 XDocument docHD = open(pathHoaDonNhapXuat);
@@ -371,9 +378,10 @@ namespace QuanLyNongSan
                     MessageBox.Show("MaKH không đúng hoặc chưa được đăng ký!");
                 else
                 {
+                    string mahd = findHD(pathHoaDonNhapXuat);
                     docHD.Element("ute").Add(
                         new XElement("HoaDonNhapXuat",
-                            new XAttribute("maHD", "HD005"),
+                            new XAttribute("maHD", mahd),
                             new XAttribute("tenNV", "Nguyễn Văn A"),
                             new XAttribute("tenKH", tenkh),
                             new XAttribute("loaiHD", "Loại 2")
@@ -382,8 +390,8 @@ namespace QuanLyNongSan
                     for (int i = 0; i < dataGridView2.Rows.Count - 1; i++)
                     {
                         docCT.Element("ute").Add(
-                            new XElement("ChiTietHoaDon",
-                                new XAttribute("maHD", "HD005"),
+                            new XElement("ChiTietHD",
+                                new XAttribute("maHD", mahd),
                                 new XAttribute("tenNS", dataGridView2.Rows[i].Cells[1].FormattedValue.ToString()),
                                 new XAttribute("soLuong", dataGridView2.Rows[i].Cells[2].FormattedValue.ToString()),
                                 new XAttribute("gia", dataGridView2.Rows[i].Cells[3].FormattedValue.ToString())
@@ -401,7 +409,7 @@ namespace QuanLyNongSan
                     }
                     foreach (XElement dt in docKH.Descendants("KhachHang"))
                     {
-                        if (dt.Attribute("maKH").Value.Equals(maKH))
+                        if (dt.Attribute("maKH").Value.ToLower().Equals(maKH))
                         {
                             tiendamua = int.Parse(dt.Attribute("tienDaMua").Value.ToString()) + int.Parse(labelTongTien.Text);
                             dt.Attribute("tienDaMua").Value = tiendamua.ToString();
@@ -415,6 +423,7 @@ namespace QuanLyNongSan
                     initGrid(gr);
                     labelDanhSachNS.Text = "";
                     labelTongTien.Text = "";
+                    MessageBox.Show("Thanh toán thành công.");
                 }
 
             }
@@ -424,6 +433,40 @@ namespace QuanLyNongSan
         {
             initGrid(gr);
             textBoxTimKiem.Text = "";
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxSoLuong_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            if (dataGridView2.Rows.Count > 1)
+            {
+                DialogResult dlr = MessageBox.Show("Bạn chưa hoàn tất việc thành toán! \n Bạn có chắc muốn thoát khỏi chức năng này không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (dlr == DialogResult.Yes)
+                {
+                    this.Hide();
+                    new Form2().Show();
+                }
+            }
+            else
+            {
+                this.Hide();
+                new Form2().Show();
+
+            }
+        }
+
+        private void Form4_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
