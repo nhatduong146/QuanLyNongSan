@@ -118,7 +118,7 @@ namespace QuanLyNongSan
             }
             else
             {
-                throw new InvalidOperationException("Fiel không tồn tại !!!");
+                throw new InvalidOperationException("File không tồn tại !!!");
             }
 
             return dt;

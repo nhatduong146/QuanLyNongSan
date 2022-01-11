@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ute>
-  <KhachHang maKH="KH003" tenKH="Võ Thị Vân" namSinh="1994" tienDaMua="3361212" />
-  <KhachHang maKH="KH006" tenKH="Võ Thị Vân Thùy" namSinh="1994" tienDaMua="3000000" />
-  <KhachHang maKH="KH005" tenKH="Dương Ngô" namSinh="1994" tienDaMua="3000000" />
-  <KhachHang maKH="KH001" tenKH="Dương Nhât" namSinh="1994" tienDaMua="3492424" />
-  <KhachHang maKH="KH008" tenKH="Dương 122" namSinh="1994" tienDaMua="3000000" />
-  <KhachHang maKH="KH009" tenKH="Võ Thị Vân 123" namSinh="1994" tienDaMua="3000000" />
-  <KhachHang maKH="KH004" tenKH="Phong Vân Vũ" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH002" tenKH="Võ Vân Anh" namSinh="1994" tienDaMua="3070000" />
+  <KhachHang maKH="KH004" tenKH="Nhật Nguyên" namSinh="1994" tienDaMua="3492424" />
+  <KhachHang maKH="KH005" tenKH="Văn An" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH007" tenKH="Phong Vân Vũ" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH003" tenKH="Minh Hiếu" namSinh="1994" tienDaMua="3000000" />
+  <KhachHang maKH="KH001" tenKH="Ngô Nhật Dương" namSinh="1994" tienDaMua="3411212" />
+  <KhachHang maKH="KH006" tenKH="Vân Nhật" namSinh="1994" tienDaMua="3000000" />
 </ute>

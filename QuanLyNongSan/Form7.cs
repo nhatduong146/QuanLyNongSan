@@ -31,19 +31,22 @@ namespace QuanLyNongSan
         public void initGrid()
         {
             this.dgvLichSu1.ColumnCount = 3;
+            this.dgvLichSu1.Columns[0].Width = 100;
             this.dgvLichSu1.Columns[0].Name = "Mã HD";
+            this.dgvLichSu1.Columns[1].Width = 155;
             this.dgvLichSu1.Columns[1].Name = "Tên khách hàng";
-            this.dgvLichSu1.Columns[2].Name = "Loại Hóa Đơn";
+            this.dgvLichSu1.Columns[2].Width = 155;
+            this.dgvLichSu1.Columns[2].Name = "Nhân viên bán";
             doc = open(pathHD);
-            string tenkh, loaiHD, maHD;
+            string tenkh, tenNV, maHD;
             this.dgvLichSu1.Rows.Clear();
             var list = doc.Descendants("HoaDonNhapXuat");
             foreach (XElement node in list)
             {
                 maHD = node.Attribute("maHD").Value;
                 tenkh = node.Attribute("tenKH").Value;
-                loaiHD = node.Attribute("loaiHD").Value;
-                    this.dgvLichSu1.Rows.Add(maHD, tenkh, loaiHD);
+                tenNV = node.Attribute("tenNV").Value;
+                    this.dgvLichSu1.Rows.Add(maHD, tenkh, tenNV);
                 
             }
             maxRow = this.dgvLichSu1.RowCount - 1;
@@ -52,8 +55,11 @@ namespace QuanLyNongSan
         public void initGrid_CT(string maHD)
         {
             this.dgvChiTiet1.ColumnCount = 3;
+            this.dgvChiTiet1.Columns[0].Width = 130;
             this.dgvChiTiet1.Columns[0].Name = "Tên nông sản";
+            this.dgvChiTiet1.Columns[1].Width = 155;
             this.dgvChiTiet1.Columns[1].Name = "Số lượng";
+            this.dgvChiTiet1.Columns[2].Width = 130;
             this.dgvChiTiet1.Columns[2].Name = "Đơn giá";
             doc = open(pathChiTietHD);
             string tenNS, soLuong, gia;

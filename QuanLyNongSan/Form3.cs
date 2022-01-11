@@ -111,11 +111,17 @@ namespace QuanLyNongSan
         public void initGrid(string gr)
         {
             this.dgvData.ColumnCount = 6;
+            this.dgvData.Columns[0].Width = 130;
             this.dgvData.Columns[0].Name = "Mã Nông Sản";
+            this.dgvData.Columns[1].Width = 150;
             this.dgvData.Columns[1].Name = "Tên Nông Sản";
+            this.dgvData.Columns[2].Width = 120;
             this.dgvData.Columns[2].Name = "Số Lượng";
+            this.dgvData.Columns[3].Width = 150;
             this.dgvData.Columns[3].Name = "Chi Tiết";
+            this.dgvData.Columns[4].Width = 120;
             this.dgvData.Columns[4].Name = "Tên Danh Mục";
+            this.dgvData.Columns[5].Width = 120;
             this.dgvData.Columns[5].Name = "Giá";
             doc = open(pathNongSan);
             
@@ -314,7 +320,7 @@ namespace QuanLyNongSan
             bool ok = false;
             string maNS = this.txtMaNS.Text;
             DialogResult result =
-            MessageBox.Show("You are sure to delete this node?",
+            MessageBox.Show("Bạn có chắc chắn muốn xóa không?",
             "Important Question",
             MessageBoxButtons.YesNo,
             MessageBoxIcon.Question);
@@ -324,8 +330,8 @@ namespace QuanLyNongSan
             }
             emptyTextBox(true);
             initGrid(gr);
-            MessageBox.Show((ok == true ? "Removed!" :
-            "Don't remove or Node not found"));
+            MessageBox.Show((ok == true ? "Xóa thành công" :
+            "Xóa thất bại"));
 
         }
 

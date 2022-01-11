@@ -1,12 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <ute>
-  <HoaDonNhapXuat maHD="HD001" tenNV="Nguyễn A" tenKH="Le La" loaiHD="Loại 1" />
-  <HoaDonNhapXuat maHD="HD002" tenNV="Nguyễn C" tenKH="Le Li" loaiHD="Loại 3" />
-  <HoaDonNhapXuat maHD="HD003" tenNV="Nguyễn B" tenKH="Le Le" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD004" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Li" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le La" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Le" loaiHD="Loại 2" />
-  <HoaDonNhapXuat maHD="HD005" tenNV="Nguyễn Văn A" tenKH="Le Li" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD001" tenNV="Lê Lương Minh Hiếu" tenKH="Võ Thị Vân" loaiHD="Loại 1" />
+  <HoaDonNhapXuat maHD="HD003" tenNV="Ngô Nhật Dương" tenKH="Nhật Nguyên" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD005" tenNV="Ngô Nhật Dương" tenKH="Vân Nhật" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD007" tenNV="Nguyễn Trọng Khang" tenKH="Minh Hiếu" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD009" tenNV="Nguyễn Văn A" tenKH="Ngô Nhật Dương" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD010" tenNV="Nguyễn Văn A" tenKH="Võ Vân Anh" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD004" tenNV="Nguyễn Trọng Khang" tenKH="Văn An" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD008" tenNV="Lê Lương Minh Hiếu" tenKH="Võ Thị Vân" loaiHD="Loại 2" />
+  <HoaDonNhapXuat maHD="HD002" tenNV="Nguyễn Trọng Khang" tenKH="Minh Hiếu" loaiHD="Loại 3" />
+  <HoaDonNhapXuat maHD="HD006" tenNV="Nguyễn Trọng Khang" tenKH="Phong Vân Vũ" loaiHD="Loại 2" />
 </ute>

@@ -42,11 +42,17 @@ namespace QuanLyNongSan
         public void initGrid(string gr)
         {
             this.dataGridView1.ColumnCount = 6;
+            this.dataGridView1.Columns[0].Width = 95;
             this.dataGridView1.Columns[0].Name = "Mã Nông Sản";
+            this.dataGridView1.Columns[1].Width = 110;
             this.dataGridView1.Columns[1].Name = "Tên Nông Sản";
+            this.dataGridView1.Columns[2].Width = 60;
             this.dataGridView1.Columns[2].Name = "Số Lượng";
+            this.dataGridView1.Columns[3].Width = 160;
             this.dataGridView1.Columns[3].Name = "Chi Tiết";
+            this.dataGridView1.Columns[4].Width = 70;
             this.dataGridView1.Columns[4].Name = "Tên Danh Mục";
+            this.dataGridView1.Columns[5].Width = 100;
             this.dataGridView1.Columns[5].Name = "Giá";
             doc = open(pathNongSan);
             var list = doc.Descendants("ChiTietNongSan");
@@ -72,11 +78,17 @@ namespace QuanLyNongSan
         public void initGridTK(string gr, string code)
         {
             this.dataGridView1.ColumnCount = 6;
+            this.dataGridView1.Columns[0].Width = 95;
             this.dataGridView1.Columns[0].Name = "Mã Nông Sản";
+            this.dataGridView1.Columns[1].Width = 110;
             this.dataGridView1.Columns[1].Name = "Tên Nông Sản";
+            this.dataGridView1.Columns[2].Width = 65;
             this.dataGridView1.Columns[2].Name = "Số Lượng";
+            this.dataGridView1.Columns[3].Width = 160;
             this.dataGridView1.Columns[3].Name = "Chi Tiết";
+            this.dataGridView1.Columns[4].Width = 70;
             this.dataGridView1.Columns[4].Name = "Tên Danh Mục";
+            this.dataGridView1.Columns[5].Width = 100;
             this.dataGridView1.Columns[5].Name = "Giá";
             doc = open(pathNongSan);
             var list = doc.Descendants("ChiTietNongSan");
@@ -129,10 +141,16 @@ namespace QuanLyNongSan
                     if (soLuongMua > 0 && int.Parse(textBoxSoLuong.Text) <= int.Parse(dataGridView1.Rows[r].Cells[2].FormattedValue.ToString()))
                     {
                         dataGridView2.ColumnCount = 5;
+
+                        this.dataGridView2.Columns[0].Width = 120;
                         this.dataGridView2.Columns[0].Name = "Mã Nông Sản";
+                        this.dataGridView2.Columns[1].Width = 135;
                         this.dataGridView2.Columns[1].Name = "Tên Nông Sản";
+                        this.dataGridView2.Columns[2].Width = 100;
                         this.dataGridView2.Columns[2].Name = "Số Lượng";
+                        this.dataGridView2.Columns[3].Width = 130;
                         this.dataGridView2.Columns[3].Name = "Giá";
+                        this.dataGridView2.Columns[4].Width = 130;
                         this.dataGridView2.Columns[4].Name = "Thành tiền";
                         this.dataGridView2.Rows.Add(
                             dataGridView1.Rows[r].Cells[0].FormattedValue.ToString(),
@@ -382,7 +400,7 @@ namespace QuanLyNongSan
                     docHD.Element("ute").Add(
                         new XElement("HoaDonNhapXuat",
                             new XAttribute("maHD", mahd),
-                            new XAttribute("tenNV", "Nguyễn Văn A"),
+                            new XAttribute("tenNV", "Nguyễn Trọng Khang"),
                             new XAttribute("tenKH", tenkh),
                             new XAttribute("loaiHD", "Loại 2")
                             ));

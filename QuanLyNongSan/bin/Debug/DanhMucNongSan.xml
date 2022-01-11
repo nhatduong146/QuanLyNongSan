@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ute>
-  <DanhMucNongSan maDM="Rau" tenDM="1" />
-  <DanhMucNongSan maDM="Củ" tenDM="2" />
-  <DanhMucNongSan maDM="Quả" tenDM="3" />
+  <DanhMucNongSan maDM="DM001" tenDM="Rau" />
+  <DanhMucNongSan maDM="DM003" tenDM="Quả" />
+  <DanhMucNongSan maDM="DM002" tenDM="Củ" />
 </ute>

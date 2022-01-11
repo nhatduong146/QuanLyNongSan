@@ -34,6 +34,7 @@
             this.buttonLSThanhToan = new System.Windows.Forms.Button();
             this.buttonCapNhat = new System.Windows.Forms.Button();
             this.buttonXuatNS = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,6 +42,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.panel1.BackgroundImage = global::QuanLyNongSan.Properties.Resources.bg041;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.buttonQLNongSan);
             this.panel1.Controls.Add(this.buttonQLKhachHang);
             this.panel1.Controls.Add(this.buttonLSThanhToan);
@@ -54,13 +56,13 @@
             // 
             // buttonQLNongSan
             // 
-            this.buttonQLNongSan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.buttonQLNongSan.BackColor = System.Drawing.Color.Turquoise;
             this.buttonQLNongSan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonQLNongSan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonQLNongSan.Location = new System.Drawing.Point(100, 101);
+            this.buttonQLNongSan.Location = new System.Drawing.Point(109, 13);
             this.buttonQLNongSan.Margin = new System.Windows.Forms.Padding(4);
             this.buttonQLNongSan.Name = "buttonQLNongSan";
-            this.buttonQLNongSan.Size = new System.Drawing.Size(213, 51);
+            this.buttonQLNongSan.Size = new System.Drawing.Size(220, 51);
             this.buttonQLNongSan.TabIndex = 7;
             this.buttonQLNongSan.Text = "Quản lý nông sản";
             this.buttonQLNongSan.UseVisualStyleBackColor = false;
@@ -68,10 +70,10 @@
             // 
             // buttonQLKhachHang
             // 
-            this.buttonQLKhachHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.buttonQLKhachHang.BackColor = System.Drawing.Color.Turquoise;
             this.buttonQLKhachHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonQLKhachHang.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonQLKhachHang.Location = new System.Drawing.Point(93, 192);
+            this.buttonQLKhachHang.Location = new System.Drawing.Point(109, 90);
             this.buttonQLKhachHang.Margin = new System.Windows.Forms.Padding(4);
             this.buttonQLKhachHang.Name = "buttonQLKhachHang";
             this.buttonQLKhachHang.Size = new System.Drawing.Size(220, 51);
@@ -82,10 +84,10 @@
             // 
             // buttonLSThanhToan
             // 
-            this.buttonLSThanhToan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.buttonLSThanhToan.BackColor = System.Drawing.Color.Turquoise;
             this.buttonLSThanhToan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLSThanhToan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonLSThanhToan.Location = new System.Drawing.Point(475, 192);
+            this.buttonLSThanhToan.Location = new System.Drawing.Point(479, 13);
             this.buttonLSThanhToan.Margin = new System.Windows.Forms.Padding(4);
             this.buttonLSThanhToan.Name = "buttonLSThanhToan";
             this.buttonLSThanhToan.Size = new System.Drawing.Size(220, 51);
@@ -96,10 +98,10 @@
             // 
             // buttonCapNhat
             // 
-            this.buttonCapNhat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.buttonCapNhat.BackColor = System.Drawing.Color.Turquoise;
             this.buttonCapNhat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCapNhat.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonCapNhat.Location = new System.Drawing.Point(475, 105);
+            this.buttonCapNhat.Location = new System.Drawing.Point(479, 90);
             this.buttonCapNhat.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCapNhat.Name = "buttonCapNhat";
             this.buttonCapNhat.Size = new System.Drawing.Size(220, 47);
@@ -110,17 +112,31 @@
             // 
             // buttonXuatNS
             // 
-            this.buttonXuatNS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.buttonXuatNS.BackColor = System.Drawing.Color.Turquoise;
             this.buttonXuatNS.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonXuatNS.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonXuatNS.Location = new System.Drawing.Point(287, 13);
+            this.buttonXuatNS.Location = new System.Drawing.Point(109, 174);
             this.buttonXuatNS.Margin = new System.Windows.Forms.Padding(4);
             this.buttonXuatNS.Name = "buttonXuatNS";
-            this.buttonXuatNS.Size = new System.Drawing.Size(213, 51);
+            this.buttonXuatNS.Size = new System.Drawing.Size(220, 51);
             this.buttonXuatNS.TabIndex = 2;
             this.buttonXuatNS.Text = "Bán Nông Sản";
             this.buttonXuatNS.UseVisualStyleBackColor = false;
             this.buttonXuatNS.Click += new System.EventHandler(this.buttonXuatNS_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Turquoise;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(479, 174);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(220, 47);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Thoát";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -145,5 +161,6 @@
         private System.Windows.Forms.Button buttonCapNhat;
         private System.Windows.Forms.Button buttonXuatNS;
         private System.Windows.Forms.Button buttonQLNongSan;
+        private System.Windows.Forms.Button button1;
     }
 }

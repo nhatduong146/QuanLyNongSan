@@ -38,8 +38,8 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Red;
-            this.button4.Location = new System.Drawing.Point(717, 19);
+            this.button4.BackColor = System.Drawing.Color.Turquoise;
+            this.button4.Location = new System.Drawing.Point(726, 1);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(79, 43);
             this.button4.TabIndex = 7;
@@ -49,7 +49,7 @@
             // 
             // buttonXML_SQL
             // 
-            this.buttonXML_SQL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.buttonXML_SQL.BackColor = System.Drawing.Color.Turquoise;
             this.buttonXML_SQL.Location = new System.Drawing.Point(79, 171);
             this.buttonXML_SQL.Name = "buttonXML_SQL";
             this.buttonXML_SQL.Size = new System.Drawing.Size(267, 44);
@@ -60,7 +60,7 @@
             // 
             // buttonSQL_XML
             // 
-            this.buttonSQL_XML.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.buttonSQL_XML.BackColor = System.Drawing.Color.Turquoise;
             this.buttonSQL_XML.Location = new System.Drawing.Point(79, 258);
             this.buttonSQL_XML.Name = "buttonSQL_XML";
             this.buttonSQL_XML.Size = new System.Drawing.Size(266, 43);
@@ -71,7 +71,7 @@
             // 
             // btnRestore
             // 
-            this.btnRestore.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnRestore.BackColor = System.Drawing.Color.Turquoise;
             this.btnRestore.Location = new System.Drawing.Point(479, 255);
             this.btnRestore.Name = "btnRestore";
             this.btnRestore.Size = new System.Drawing.Size(229, 46);
@@ -82,7 +82,7 @@
             // 
             // btnBackup
             // 
-            this.btnBackup.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnBackup.BackColor = System.Drawing.Color.Turquoise;
             this.btnBackup.Location = new System.Drawing.Point(479, 169);
             this.btnBackup.Name = "btnBackup";
             this.btnBackup.Size = new System.Drawing.Size(229, 46);
@@ -95,15 +95,15 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(128, 19);
+            this.label1.Location = new System.Drawing.Point(172, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(401, 35);
+            this.label1.Size = new System.Drawing.Size(493, 42);
             this.label1.TabIndex = 8;
             this.label1.Text = "QUẢN LÝ CSDL - SAO LƯU";
             // 
             // FormSaoLuuData
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuanLyNongSan.Properties.Resources.ground;
             this.ClientSize = new System.Drawing.Size(808, 415);
@@ -116,6 +116,7 @@
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormSaoLuuData";
+            this.Text = "Chuyển dổi - sao lưu dữ liệu";
             this.ResumeLayout(false);
             this.PerformLayout();
 
